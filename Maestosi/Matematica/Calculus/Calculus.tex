@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, empheq}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=3.75cm]{geometry}
+\definecolor{mycolour}{RGB}{46,52,64}
+\pagecolor{mycolour}
+\color{white}
+\title{Calculus}
+\author{Eugenio Animali}
+\date{4 sept 2022}
+\begin{document}
+\maketitle
+\section*{That famous Oxymoron}
+'Instantaneous rate of change'\\
+In calculus, we do not measure an instantaneous rate of change; we measure what a rate approaches, with dx approaching 0. Seeing what this rate approaches shows what rate is tangent to the curve.
+\section{Derivative}
+\begin{enumerate}
+    \item
+Here is the general equation for the derivative of a point on a function. It shows the rise over run using a value of dx which approaches 0
+\[
+\frac{df(x)}{dx} = \frac{f(x +dt) - f(x)}{dx}
+\]
+\begin{gather*}
+\label{example 1} \text{To work through an example, let's take the derivative of } y=x^{3}\text{ while }x = 4:\\
+    \lim_{dx\to 0} \frac{df(x)}{dx}=\lim_{dx\to 0} \frac{(x+dx)^2-x^2}{dx}\\
+    =\lim_{dx\to 0} \frac{x^2+dx^{3}-x^2}{dx}\\
+    =\lim_{dx\to 0} 3x^{2}+3xdx+dx^{2}\\
+    \text{as dx approaches 0, all parts with dx as a coefficient will approach 0:}\\
+    =3x^2
+\end{gather*}
+    \item Let's find a general formula for derivatives of polynomials:\\
+    $$f(x) = x^{n}$$
+\begin{gather*}
+    (x+dx)^n =\overbrace{(x+dx)(x+dx)(x+dx)\dots (x+dx)}^{n\text{ times}}\\
+    =x^n+n\color{green}x^{n-1}\color{red}dx\color{white}\dots+\text{Multiples of }dx^2
+\end{gather*}
+\[\frac{dy}{dx} = \frac{(x+dx)^{n}-x^n}{dx}\]
+\end{enumerate}
+\end{document}

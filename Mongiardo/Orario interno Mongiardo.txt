@@ -1,0 +1,7 @@
+Orario interno Mongiardo
+
+Lun- Lat, Ita
+Mar- Ita
+Mer- Lat
+Gio- Dan
+Ven- Lat, Ita

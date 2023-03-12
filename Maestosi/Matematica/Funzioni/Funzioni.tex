@@ -1,0 +1,179 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{parskip}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{geometry}
+\definecolor{mycolour}{RGB}{46,52,64}
+\pagecolor{mycolour}
+\color{white}
+
+\title{Funzioni}
+\author{Eugenio Animali}
+\date{14 09 2022}
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\section{Studio del Dominio}
+Dalle Condizioni di Esistenza troviamo il Dominio:
+\begin{align}
+    \frac{g(x)}{h(x)}&\to h(x)\neq 0\\
+    \sqrt[n]{g(x)}&\to g(x)\geq 0\text{ se $n$ pari}\\
+    \log_{f(x)}(g(x))&\to \begin{cases}
+        f(x)>0\\
+        g(x)>0
+    \end{cases}\\
+    &\vdots
+\end{align}
+E iniziamo il grafico mettendo nel grafico i punti di discontinuitá.
+\begin{itemize}
+    \item Riga verticale trattegiata per discontinuitá
+    \item zone oscurate per zone escluse dal dominio
+\end{itemize}
+\subsection{Simmetria}
+Se il Dominio é simmetrico, la funzione potrebbe essere Pari o Dispari. Studio $f(-x)$:
+\begin{gather*}
+    =f(x)\to\text{ Pari}\\
+    =-f(x)\to\text{ Dispari}
+\end{gather*}
+\section{Intersezione con Assi}
+Per definire il segno della funzione, dobbiamo definire delle zone dove la funzione rimane o sopra o sotto all'asse x, trovando i punti di confine tra queste zone. Una funzione puó cambiare segno solo in due casi:
+\begin{enumerate}
+    \item Funzione definita a tratti $\to$ basta riprendere i confini definiti dalla funzione stessa
+    \item passando per $I_x\to y=0$
+\end{enumerate}
+Tanto vale studiare anche $I_y\to x=0$.
+\section{Studio del Segno}
+Ora possiamo studiare il segno. Ponendo $f(x)\geq 0$, troviamo la gamma di valori $x$ dove la funzione é positiva o uguale a zero, e possiamo oscurare in quella gamma tutta la zona sotto l'asse $x$, perché sappiamo che $f(x)$ non é negativa lí. Allo stesso modo possiamo oscurare la zona positiva, lá dove $f(x)$ é negativa.
+\section{Comportamento agli Estremi}
+Vediamo come si comporta $f(x)$ in ogni confine nel Dominio. Per confini definiti (dove il dominio presenta una parentesi quadra), basta sostituire il valore di x per trovare il punto di confine. Per confini non definiti (dove il Dominio presenta una parentesi tonda) e per gli estremi infiniti, dobbiamo fare il limite per $x$.
+
+\subsection{Continuitá}
+\begin{gather*}
+    y=f(x)\text{ é continua in }x_0\in D\text{ se }\lim_{x\to x_0}f(x)=f(x_0)
+\end{gather*}
+
+\subsubsection{3 teoremi sulle funzioni continue}
+
+\begin{enumerate}
+    \item Teorema di Weierstrass
+    
+    Se f é una funzione limitata e chiusa, esitono punti massimo e minimo.
+    \item Teorema dell'esistenza degli zeri
+    
+    Se ho una funzione che ha i due estremi di segno opposto, la funzione passa per l'asse x
+    \item Teorema dei valori medi
+    
+    Una fuzione chiusa e limitata assume almeno una volta tutti i valori intermedi tra il massimo e il minimo.
+\end{enumerate}
+\subsection{Discontinuitá}
+Quando si distacca la funzione, parliamo di discontinuitá. Vi sono 3 specie da differenziare seguendo queste regole:
+\begin{enumerate}
+    \item la funzione esiste ma salta verticalmente. - prima specie
+    \item la funzione tende ad infinito da una o due parti. - seconda specie
+    \item c'é un buco nella funzione. basta dare un valore al buco per eliminare la discontinuitá. - Eliminabile
+\end{enumerate}
+\subsection{Forme Indeterminate}
+Le Forme Indeterminate sono 7: $[+\infty - \infty, \frac{\infty}{\infty}, \frac{0}{0}, \infty\cdot 0, 0^0, \infty^0, 1^\infty]$
+
+Si risolvono in diversi modi:
+\begin{itemize}
+    \item Per i polinomi con $x$ che tende ad infinito, si estrae la massima potenza di $x$, e tutte le altre potenze di $x$ tenderanno a zero.
+    \item Per $\frac{0}{0}$, bisogna estrarre un fattore che sta nel numeratore e nel denominatore.
+    \item Per $\frac{\infty}{\infty}$, si usa la legge di De L'Hopital per cui:
+    \begin{gather*}
+        \lim_{x\to\infty}\frac{f(x)}{g(x)}=\lim_{x\to\infty}\frac{f'(x)}{g'(x)}
+    \end{gather*}
+\end{itemize}
+\subsection{Infiniti e Infinitesimi}
+$f(x)$ é infinito per $x\to x_0$ se $\lim_{x\to x_0} f(x)=\infty$
+
+$f(x)$ é infinitesimo per $x\to x_0$ se $\lim_{x\to x_0} f(x)=0$
+\subsubsection{Gerarchia degli Infiniti}
+per $x\to+\infty$ e $a>0$:
+\begin{gather*}
+    log_ax<x^\alpha<a^x
+\end{gather*}
+\subsubsection{Ordine di Infinitesimi}
+Studio $\lim_{x\to x_0}\frac{f(x)}{g(x)}$
+
+Se viene $0$, $f(x)$ arriva prima.
+
+Se viene $n$, hanno lo stesso ordine.
+
+Se viene $\infty$, $g(x)$ arriva prima e ha ordine superiore.
+\subsection{Limiti Notevoli}
+\begin{enumerate}
+    \item $\lim_{x\to0}\frac{\sin x}{x}=1$
+    \begin{gather*}
+        \sin x<x<\tan x\\
+        1<\frac{x}{\sin x}<\frac{1}{\cos x}\\
+        \cos x<\frac{\sin x}{x}<1\\
+        \text{per $a<b<c$, se $a$ e $c$ tendono allo stesso numero,}\\
+        \text{anche $b$ tenderá allo stesso numero.}
+    \end{gather*}
+    \item $\lim_{x\to 0}\frac{1-\cos x}{x}=0$
+    \begin{gather*}
+        \lim_{x\to 0}\frac{(1-\cos x)(1+\cos x)}{x(1+\cos x)}\\
+        \lim_{x\to 0}\frac{\sin^2x}{x(1+\cos x)}\\
+        \lim_{x\to 0}\frac{\sin x}{x}\cdot\frac{\sin x}{1+\cos x}
+    \end{gather*}
+    \item $\lim_{x\to 0}\frac{1-\cos x}{x^2}=\frac{1}{2}$
+    \begin{gather*}
+        \lim_{x\to 0}\frac{(1-\cos x)(1+\cos x)}{x^2(1+\cos x)}\\
+        \lim_{x\to 0}\frac{\sin^2x}{x^2(1+\cos x)}\\
+        \lim_{x\to 0}\frac{\sin^2 x}{x^2}\frac{1}{1+\cos x}
+    \end{gather*}
+\item $\lim_{x\to\infty}\left(1+\frac{1}{x}\right)^x=e$
+\end{enumerate}
+\subsection{Asintoti}
+\subsubsection{Asintoto Orizzontale}
+Cerchiamo un asintoto orizzontale.
+\begin{gather*}
+    y=\lim_{x\to\infty}f(x)
+\end{gather*}
+\subsubsection{Asintoto Obliquo}
+Se non c'é orizzontale, possiamo cercare uno obliquo.
+\begin{gather*}
+    m= \lim_{x\to +\infty}\frac{f(x)}{x}\\
+    q=\lim_{x \to +\infty}[f(x)-mx]
+\end{gather*}
+\section{Studio Della Derivata Prima}
+\subsection{Punti di Non Derivabilitá}
+Bisogna studiare punti di non derivabilitá solo dove $f$ é continua, perché non ha senso studiare la derivabilitá dove $f$ non esiste. Studiamo i limiti destro e sinistro di ogni confine incluso nella definizione a tratti della derivata:
+\begin{enumerate}
+    \item Flesso a Tg Verticale\\
+    la tangente verticale non ha coefficiente angolare. I limiti destro e sinistro della derivata vanno a $\pm$ infinito
+    \item Cuspide\\
+    spigolo di curve per cui i limiti destro e sinistro vanno uno a + infinito e uno a - infinito
+    \item Punto Angoloso\\
+    limiti destro e sinistro sono diversi e almeno uno non é infinito. si chiama cosí perché ha un angolo
+\end{enumerate}
+Per trovare di quale si tratta facciamo i limiti sinistro e destro della derivata.
+\subsection{Andamento}
+\begin{gather*}
+    \text{studio }f'(x)\geq 0\text{ per trovare:}\\
+    f'(x)>0\to \text{ Funzione Crescente}\\
+    f'(x)<0\to \text{ Funzione Decrescente}\\
+    f'(x)=0\to\text{ Punto Stazionario}
+\end{gather*}
+\begin{enumerate}
+    \item Cresce, Punto Stazionario, Decresce$\to$ Massimo Relativo ($M$)
+    \item Decresce, Punto Stazionario, Cresce$\to$ Minimo Relativo ($m$)
+    \item Decresce, Punto Stazionario, Decresce$\to$ Flesso Orizzontale
+    \item Cresce, Punto Stazionario, Cresce$\to$ Flesso Orizzontale
+\end{enumerate}
+\section{Studio della Derivata Seconda}
+\begin{gather*}
+    f''(x)>0\to\text{Concavitá verso l'Alto}\\
+    f''(x)<0\to\text{Concavitá verso il Basso}\\
+    f''(x)=0\to\text{Flesso (Cambio di Concavitá)}
+\end{gather*}
+\begin{gather*}
+    \lim_{x\to\infty}\frac{x}{\sin x}=1
+\end{gather*}
+\end{document}

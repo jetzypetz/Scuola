@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}Fondamento Concettuale}{2}{}%
+\contentsline {section}{\numberline {2}Derivate Elementari}{2}{}%
+\contentsline {section}{\numberline {3}Regole di Derivazione}{2}{}%
+\contentsline {section}{\numberline {4}Esempi da conoscere}{2}{}%
+\contentsline {section}{\numberline {5}Derivata della Funzione Inversa}{3}{}%
+\contentsline {section}{\numberline {6}Differenziale di una Funzione}{3}{}%
+\contentsline {section}{\numberline {7}Tangenze nelle Curve}{3}{}%
+\contentsline {subsection}{\numberline {7.1}Tangente ad una Curva in un suo Punto P}{3}{}%
+\contentsline {subsection}{\numberline {7.2}Normale ad una Curva in un suo Punto P}{3}{}%
+\contentsline {subsection}{\numberline {7.3}Curve Tangenti}{3}{}%
+\contentsline {subsection}{\numberline {7.4}Tangente ad una Curva Passante per un Punto P}{4}{}%
+\contentsline {section}{\numberline {8}Punti di Non Derivabilitá}{4}{}%
+\contentsline {section}{\numberline {9}Studio Della Derivata Prima}{4}{}%
+\contentsline {section}{\numberline {10}Studio della Derivata Seconda}{4}{}%
+\contentsline {section}{\numberline {11}Problemi di Massimo e Minimo}{5}{}%
+\contentsline {section}{\numberline {12}4 Teoremi sulle Derivate}{5}{}%
+\contentsline {subsection}{\numberline {12.1}Teorema di Rolle}{5}{}%
+\contentsline {subsubsection}{\numberline {12.1.1}Ipotesi}{5}{}%
+\contentsline {subsubsection}{\numberline {12.1.2}Tesi}{5}{}%
+\contentsline {subsection}{\numberline {12.2}Teorema di Lagrange}{5}{}%
+\contentsline {subsubsection}{\numberline {12.2.1}tesi}{5}{}%
+\contentsline {subsection}{\numberline {12.3}Teorema di Cauchy}{6}{}%
+\contentsline {subsection}{\numberline {12.4}Teorema di de l'Hospital}{6}{}%
+\contentsline {section}{\numberline {13}Metodo delle derivate successive}{6}{}%

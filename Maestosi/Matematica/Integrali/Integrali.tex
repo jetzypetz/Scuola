@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{parskip}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, empheq}
+\usepackage[margin=3.75cm]{geometry}
+\definecolor{mycolour}{RGB}{46,52,64}
+\pagecolor{mycolour}
+\color{white}
+
+\title{\jobname}
+\author{Eugenio Animali}
+
+\begin{document}
+\maketitle
+
+\section{Integrali indefiniti}
+
+\begin{gather*}
+    \int f(x)dx = F(x) + c
+\end{gather*}
+\section{Integrali elementari}
+\begin{gather*}
+    \int dx = x + c\\
+    \int x^\alpha dx = \frac{x^{\alpha + 1}}{\alpha + 1} + c \text{ eccetto } \alpha = - 1\\
+    \int \frac{1}{x} dx = \ln |x| + c\\
+    \int \sin x dx = - \cos x + c\\
+    \int \frac{1}{\cos^2 x}dx = \tan x + x\\
+    \int \frac{1}{\sqrt{1 - x^2}} dx = \arcsin x + c
+\end{gather*}
+
+\section{Integrale della Funzione Composta}
+Se nella funzione integranda trovo una funzione e la sua derivata, posso usare la regola della funzione composta.
+Sapendo che il differenziale é
+\begin{gather*}
+    f(x) = f'(x) dx
+\end{gather*}
+quindi:
+\begin{gather*}
+    \int f(x) f'(x) dx = \int f(x) d(f(x)) = \frac{f^2(x)}{2} + c
+\end{gather*}
+Ció vale anche se $f(x)$ é interna ad una funzione $g(f(x))$ piú complessa. Basta manipolare la funzione integranda finché presenta una $f(x)$ che corrisponda ad una $f'(x)$.
+\section{Integrazione per Sostituzione}
+Particolarmente utile nei seguenti casi:
+\begin{enumerate}
+    \item Radici
+    \item Esponenziali
+    \item Goniometria
+\end{enumerate}
+Il metodo consiste nel sostituire x per un'altra funzione $t$ scelta da me, per togliere parti complicate della funzione. per passare da $x$ a $t$, devo considerare l'effetto ché avrá su dx:
+\begin{gather*}
+    x = g(t)\\
+    dx = g'(t)dt
+\end{gather*}
+
+Esempio:
+\begin{gather*}
+    \int \frac{1}{1 + 2\sqrt{x}}dx
+\end{gather*}
+Pongo:
+\begin{gather*}
+    t = \sqrt{x}\\
+    x = t^2\\
+    dx = 2tdt
+\end{gather*}
+Quindi:
+\begin{gather*}
+    \int \frac{1}{1 + 2t} 2t dt\\
+    \int \frac{2t + 1 - 1}{2t + 1}dt\\
+    \int (1 - \frac{1}{2t + 1})dt\\
+    t - ln|2t + 1|\\
+    \sqrt{x} - \ln|2\sqrt{x} + 1|
+\end{gather*}
+dare esempio migliore
+
+Esempio:
+\begin{gather*}
+    \int \sqrt{9-x^2}dx
+\end{gather*}
+Pongo:
+\begin{gather*}
+    t = \sqrt{9-x^2}
+\end{gather*}
+\end{document}

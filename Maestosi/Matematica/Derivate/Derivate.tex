@@ -1,0 +1,178 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{parskip}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, empheq}
+\usepackage[margin=3.75cm]{geometry}
+\definecolor{mycolour}{RGB}{46,52,64}
+\pagecolor{mycolour}
+\color{white}
+
+\title{\jobname}
+\author{Eugenio Animali}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Fondamento Concettuale}
+
+Cerco il coefficiente angolare di una curva nel punto. Per fare ció mi servono 2 punti. Allora io prendo $(x,f(x))$, che mi é dato, e un punto piú in la della funzione, $(x+dx,f(x+dx))$ e trovo il coefficiente angolare utilizzando il \underline{rapporto incrementale} $\frac{\Delta y}{\Delta x}= \frac{f(x+dx)-f(x)}{(x+dx)-x}$. Poi faccio tendere $dx$ a 0 e trovo il coefficiente angolare.
+
+\begin{gather*}
+    \lim_{dx\to 0}\frac{f(x+dx)-f(x)}{dx}
+\end{gather*}
+\section{Derivate Elementari}
+\begin{gather*}
+    Dx^\alpha=\alpha x^{\alpha-1}\\
+    D\sin x=\cos x\\
+    D\cos x=-\sin x\\
+    Da^x=a^x\ln a\\
+    De^x=e^x\\
+    D\log_ax=\frac{1}{x}\log_ae\\
+    D\ln x=\frac{1}{x}
+\end{gather*}
+
+\section{Regole di Derivazione}
+\begin{gather*}
+    (kf)'=kf'\\
+    (f+g)'=f'+g'\\
+    (f\cdot g\cdot h)'=f'\cdot g\cdot h+f\cdot g'\cdot h+f\cdot g\cdot h'\\
+    \left(\frac{f}{g}\right)'=\frac{f'\cdot g-f\cdot g'}{g^2}\\
+    (f(g))'=f'(g)\cdot g'
+\end{gather*}
+\section{Esempi da conoscere}
+\begin{gather*}
+    D\tan x=D\left[\frac{\sin x}{\cos x}\right]=\frac{\cos^2 x - \sin x(-\sin x)}{\cos^2 x}=\frac{1}{\cos^2 x}\\
+    D\left[\frac{x\ln x}{e^x}\right]=\frac{\left[1\cdot \ln x+x\frac{1}{x}\right]e^x-x\ln x\cdot e^x}{e^{2x}}= \frac{e^x\left[\ln x+1-x\cdot \ln x\right]}{e^{2x}}= \frac{\left[\ln x+1-x\cdot \ln x\right]}{e^x}
+\end{gather*}
+\section{Derivata della Funzione Inversa}
+\begin{gather*}
+    y=f(x)\\
+    x=f^{-1}(y)\\
+    f^{-1}(f(x)) =x\\
+    Df^{-1}(y)\cdot Df(x) = 1\\
+    Df^{-1}(y)=\frac{1}{Df(x)}
+\end{gather*}
+\section{Differenziale di una Funzione}
+Se ho trovato la derivata (tangente) di una funzione, $\Delta y$ é quanto sale veramente la funzione dopo $dx$, e $dy$ é quanto sale la tangente. Piú é piccola $dx$, piú si avvicinano $\Delta y$ e $dy$.
+
+Secondo la regola (TOA) della tangente:
+\begin{gather*}
+    f'(x)=\frac{dy}{dx}\\
+    dy=f'(x)\cdot dx
+\end{gather*}
+
+\section{Tangenze nelle Curve}
+\subsection{Tangente ad una Curva in un suo Punto P}
+    \begin{gather*}
+        y-y_0=m(x-x_0)\\
+        y-f(x_p)=f'(x_p)(x-x_p)
+    \end{gather*}
+\subsection{Normale ad una Curva in un suo Punto P}
+    \begin{gather*}
+        y-y_0=m(x-x_0)\\
+        m_\perp =-\frac{1}{m}\\
+        y-f(x_p)=-\frac{1}{f'(x_p)}(x-x_p)
+    \end{gather*}
+
+\subsection{Curve Tangenti}
+
+Due curve sono tangenti in un punto $x$ se le $y$ sono uguali e allo stesso tempo le tangenti (Derivate) sono uguali:
+\begin{gather*}
+    f(x)=g(x)\\
+    f'(x)=g'(x)
+\end{gather*}
+Due equazioni in una incognita, significa che entrambe le equazioni devono essere vere.
+\subsection{Tangente ad una Curva Passante per un Punto P}
+\begin{gather*}
+    \text{parti con una curva $y=f(x)$ e un punto $P(x_0,y_0)$ fuori dalla curva}\\
+    \text{regola del fascio di rette: }
+    y-y_0=m(x-x_0)\\
+    \text{poni }f(c)-y_0=f'(c)(x-x_0)
+\end{gather*}
+Cosí poni che i punti $(c,f(c))$ e $(x_0,y_0)$ siano legati dal coefficiente angolare (la derivata) in $c$ e risolvi per $c$.
+\section{Punti di Non Derivabilitá}
+Dove $f$ é discontinua, non é mai derivabile. Dove $f$ é continua, non é derivabile nelle seguenti situazioni:
+\begin{enumerate}
+    \item Flesso a Tg Verticale\\
+    la tangente verticale non ha coefficiente angolare. I limiti destro e sinistro della derivata vanno a $\pm$ infinito
+    \item Cuspide\\
+    spigolo di curve per cui i limiti destro e sinistro vanno uno a + infinito e uno a - infinito
+    \item Punto Angoloso\\
+    limiti destro e sinistro sono diversi e almeno uno non é infinito. si chiama cosí perché ha un angolo
+\end{enumerate}
+Per trovare di quale si tratta facciamo i limiti sinistro e destro della derivata.
+\section{Studio Della Derivata Prima}
+\begin{gather*}
+    \text{studio }f'(x)\geq 0\text{ per trovare:}\\
+    f'(x)>0\to \text{ Funzione Crescente}\\
+    f'(x)<0\to \text{ Funzione Decrescente}\\
+    f'(x)=0\to\text{ Punto Stazionario}
+\end{gather*}
+\begin{enumerate}
+    \item Cresce, Punto Stazionario, Decresce$\to$ Massimo Relativo ($M$)
+    \item Decresce, Punto Stazionario, Cresce$\to$ Minimo Relativo ($m$)
+    \item Decresce, Punto Stazionario, Decresce$\to$ Flesso Orizzontale
+    \item Cresce, Punto Stazionario, Cresce$\to$ Flesso Orizzontale
+\end{enumerate}
+\section{Studio della Derivata Seconda}
+\begin{gather*}
+    f''(x)>0\to\text{Concavitá verso l'Alto}\\
+    f''(x)<0\to\text{Concavitá verso il Basso}\\
+    f''(x)=0\to\text{Flesso (Cambio di Concavitá)}
+\end{gather*}
+\section{Problemi di Massimo e Minimo}
+1. definire una incognita.
+
+2. definire le sue limitazioni.
+
+3. trovare l'equazione che comprende l'incognita.
+
+4. risolvere.
+\section{4 Teoremi sulle Derivate}
+\subsection{Teorema di Rolle}
+\subsubsection{Ipotesi}
+\begin{gather*}
+    f(x)\text{ Continua in }[a,b]\\
+    f(x)\text{ Derivabile in }(a,b)\to\text{puó avere estremi verticali}\\
+    f(a) = f(b)\to\text{estremi alla stessa altezza}
+\end{gather*}
+\subsubsection{Tesi}
+\begin{gather*}
+    \exists c \in (a,b) | f'(c)=0
+\end{gather*}
+Verifica:
+\begin{enumerate}
+    \item Funzione piatta
+    
+    \begin{gather*}
+        m=M\\
+        f(x_1) = f(x_2)\\
+        m=f(x_1)=f(x)=f(x_2)=M
+    \end{gather*}
+    \item  Funzione curva
+    
+    \begin{gather*}
+        m=f(x_1)<f(x)<f(x_2)=M\\
+        f(c+h)-f(c)\geq 0\to\text{tutti i punti accanto al minimo devono essere piú alti di } f(c)\\
+        \frac{f(c+h)-f(c)}{h} \geq 0\text{ se }h>0
+    \end{gather*}
+\end{enumerate}
+\subsection{Teorema di Lagrange}
+\subsubsection{tesi}
+\begin{gather*}
+    \exists c\in (a,b) | f'(c)=\frac{f(b)-f(a)}{b-a}
+\end{gather*}
+Dimostrazione:
+\begin{gather*}
+    F(x)=f(x)-kx\\
+    F(a)=F(b)
+\end{gather*}
+\subsection{Teorema di Cauchy}
+vedi su libro
+\subsection{Teorema di de l'Hospital}
+\section{Metodo delle derivate successive}
+\end{document}

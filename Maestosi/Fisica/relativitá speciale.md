@@ -1,0 +1,1 @@
+sperimento con l'orologio a luce: fattore lorentziano dimostra cambiamento
