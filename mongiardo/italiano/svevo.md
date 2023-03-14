@@ -16,9 +16,13 @@
 * successo inesistente
 
 * autobiografico
+
 ** borghese
+
 ** esule
+
 ** intellettuale
+
 ** insoddisfatto
 
 * inetto alfonso
@@ -31,9 +35,13 @@
 ** figura paterna putativo, classico modello di borghese di grande successo.
 
 * Zola é modello letterario
+
 ** Zola ricerca e descrive tutti i contesti - la famiglia, il lavoro etc
+
 *** si riflette in Svevo perché anche lui fa uno studio accurato di contestualizzazione sociale
+
 ** diverso é il fatto che la focalizzazione é interna al personaggio.
+
 *** ma non é un andrea sperelli perché psiche sperelli = lineare, mentre Alfonso é labirintico - protagonisti non sono sinceri con se stessi, si mentono, quindi é molto piú difficile intravedere opinioni (il narratore che racconta le cose che pensa Alfonso, svela le menzogne che Alfonso si dice).
 
 ## T1 le ali di gabbiano
@@ -47,6 +55,10 @@
 # secondo romanzo: senilitá
 
 * ragazzo giovane che ha paura di vivere e cerca di risparmiarsi dai rischi (antitesi di un claudio cantelmo)
+
+* quadro sociale e molto meno dettagliato; attenzione si focalizza sulla psicologia dei personaggi
+
+* senilita si riferisce al modo di vivere
 
 ## trama
 
@@ -64,3 +76,38 @@
 * Angiolina si innamora di Balli
 
 * amalia si innamora di balli e viene allontanata da balli dal fratello per gelosia. si droga di etere e muore di polmonite.
+
+## T2 il ritratto dell'inetto
+
+* il narratore smaschera subito le menzogne, non solo dette ad angiolina, ma anche di emilio tra se e se
+
+* descrizione di emilio
+## T4 la trasfigurazione di Angiolina
+
+* metamorfosi smascherata dal aggettivo "strana"
+
+# la coscienza di zeno
+
+## trama
+
+zeno e abulico, non fa niente, cambia in continuo facolta universitaria in continuazione
+
+padre lo ama ma e deluso dell'inettitudine
+
+zeno ha complesso di edipo: odia il padre (fa apposta a non concludere gli studi per far soffrire padre) e ama la madre (morta)
+
+* vuole essere come il padre ed e per questo che non smette di fumare (considerata caratteristica virile)
+
+giovanni malfenti
+
+* il rivale: uomo borghese perfetto
+
+fumo
+
+* alibi per la inettitudine - da al fumo la colpa, autoinganno
+
+* lo fa sentire virile
+
+## T5 il fumo
+
+## T6 la morte del padre

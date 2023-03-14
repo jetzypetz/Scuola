@@ -35,7 +35,7 @@
 Se nella funzione integranda trovo una funzione e la sua derivata, posso usare la regola della funzione composta.
 Sapendo che il differenziale é
 \begin{gather*}
-    f(x) = f'(x) dx
+    df(x) = f'(x) dx
 \end{gather*}
 quindi:
 \begin{gather*}
@@ -57,30 +57,36 @@ Il metodo consiste nel sostituire x per un'altra funzione $t$ scelta da me, per 
 
 Esempio:
 \begin{gather*}
-    \int \frac{1}{1 + 2\sqrt{x}}dx
+		\int \frac{x}{\sqrt{x^2 - 9}}dx
 \end{gather*}
 Pongo:
 \begin{gather*}
-    t = \sqrt{x}\\
-    x = t^2\\
-    dx = 2tdt
+		t=\sqrt{x^2 - 9}\\
+		x = \sqrt{t^2 + 9}\\
+		g'(t) = \frac{1}{2\sqrt{t^2 + 9}}\cdot 2t =\frac{t}{\sqrt{t^2+9}}\\
+		dx=\frac{t}{\sqrt{t^2+9}}dt
 \end{gather*}
 Quindi:
 \begin{gather*}
-    \int \frac{1}{1 + 2t} 2t dt\\
-    \int \frac{2t + 1 - 1}{2t + 1}dt\\
-    \int (1 - \frac{1}{2t + 1})dt\\
-    t - ln|2t + 1|\\
-    \sqrt{x} - \ln|2\sqrt{x} + 1|
+		\int \frac{x}{\sqrt{x^2-9}}dt=\int \frac{\sqrt{t^2+9}}{t}\frac{t}{\sqrt{t^2+9}}dt\\
+		= t +c =\sqrt{x^2-9}+c
 \end{gather*}
-dare esempio migliore
-
+\section{Integrazione per Parti}
+Quando ho una funzione facilmente derivabile e una facilmente integrabile.
+\begin{gather*}
+		\int f(x)\cdot g'(x)dx = f(x)\cdot g(x) - \int f'(x)\cdot g(x)dx
+\end{gather*}
 Esempio:
 \begin{gather*}
-    \int \sqrt{9-x^2}dx
+		\int xe^x dx		
 \end{gather*}
 Pongo:
 \begin{gather*}
-    t = \sqrt{9-x^2}
+		f(x) = x, f'(x) = 1\\
+		g(x) = e^x, g'(x) = e^x\\
+\end{gather*}
+Quindi:
+\begin{gather*}
+		xe^x - \int e^x dx = xe^x - e^x + c
 \end{gather*}
 \end{document}

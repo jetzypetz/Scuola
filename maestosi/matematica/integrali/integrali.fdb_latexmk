@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1678666094 "integrali.tex" "integrali.pdf" "integrali" 1678666095
+["pdflatex"] 1678784720 "integrali.tex" "integrali.pdf" "integrali" 1678784720
   "/etc/texmf/web2c/texmf.cnf" 1667463925 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -135,8 +135,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1678661658 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1678661663 1405648 d913a206a937431389a9175de7b8bbb7 ""
-  "integrali.aux" 1678666094 486 6fc13f8b26969614d84a516dfbd4b34b "pdflatex"
-  "integrali.tex" 1678666092 2240 2b55bc58895feca3c515672b55e43c0f ""
+  "integrali.aux" 1678784720 596 05a0731bdb8ff83b7c24311c3e4f7311 "pdflatex"
+  "integrali.tex" 1678784718 2566 e42497830bf575971704953c351a7750 ""
   (generated)
   "integrali.aux"
   "integrali.log"
