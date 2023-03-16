@@ -88,6 +88,24 @@
 
 # la coscienza di zeno
 
+Pubblicato molto dopo - diventa ricco borghese lavoratore, si scorda di scrivere, finche la prima guerra mondiale requisisce l'azienda
+
+come ci spiega il dottore nella prefazione, in questo romanzo non c'e piu il narratore che smaschera le bugie, e quindi sono piu difficili da riconoscere dal lettore.
+
+## impianto
+
+non cronologico, ma diviso per temi (in ogni capitolo, c'e un assetto cronologico, che ricomincia al nuovo capitolo)
+
+* si presenta come opera memoriale - zeno cosini e ormai vecchio e va dallo psichanalista, che gli dice che deve scrivere della sua vita per far raffiorare le parti importanti
+
+### prefazione
+
+primo tema: una lettera scritta dal dottor S.
+
+autobiografia come atto propedeutico alla psicanalisi.
+
+il dottore ha letto e studiato questa biografia, ma appena va per dare il verdetto (del complesso edipico) a zeno, zeno scappa dalla cura, per non guardare in faccia la realta (e perche, essendo diventato un ricco borghese, non gli serve piu la cura). allora e per vendetta che il dottore pubblica questo romanzo.
+
 ## trama
 
 zeno e abulico, non fa niente, cambia in continuo facolta universitaria in continuazione
@@ -110,4 +128,20 @@ fumo
 
 ## T5 il fumo
 
+da giovane ruba le sigarette del padre perche e un simbolo virile
+
+in contrasto, il fumo viene considerato da zeno la sua malattia. la sua condizione sofferente e di inettitudine nella vita e causata dal fumo. in realta e un alibi, una convinzione che sia il fumo la radice del suo problema; non riesce (dentro dentro non vuole) a smettere, perche se smettesse e non finissero i suoi problemi, non avrebbe piu questa scusa.
+
+* in lui ci sono due figure in lotta - il padre in lui che impone il divieto di fumare; il figlio che non vuole smettere perche si ribella.
+
 ## T6 la morte del padre
+
+il padre incarna quel ruolo di persona sicura che zeno sa di non poter mai raggiungere
+
+zeno fallisce in continuo proprio per fare dispetti al padre, perche lui lo odia
+
+* (r. 92) zeno porta al padre un certificato per certificare che lui e matto per andare contro il padre
+
+* (r. 97) zeno incolpa il dottor coprosich di avere occhi minacciosi. questo  e perche sicuramente il dottore avra capito che zeno fosse negligente, e avesse chiamato il dottore. quindi si sente attaccato e mente a se stesso. e ovvio che trascura il padre visto che non sa nemmeno quanto ha mangiato in questi giorni
+
+* (r.142) zeno vuole che il padre muoia piu prima possibile, ma lo maschera dicendo che non vuole farlo soffrire di piu. quindi vuole che il dottore muoia, perche lo ha incolpato con lo sguardo
