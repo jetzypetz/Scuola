@@ -20,10 +20,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-INPUT /home/jetz/dev/tex.preamble
-INPUT /home/jetz/dev/tex.preamble
-INPUT /home/jetz/dev/tex.preamble
-INPUT /home/jetz/dev/tex.preamble
+INPUT ../dev/tex.preamble
+INPUT ../dev/tex.preamble
+INPUT ../dev/tex.preamble
+INPUT ../dev/tex.preamble
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
