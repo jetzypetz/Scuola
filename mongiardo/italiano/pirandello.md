@@ -126,9 +126,17 @@ nel suo semi distacco dal lavoro, serafino sta girando una storia comune di lei 
 
 ## uno nessuno centomila 948
 
+vitangelo moscarda e lunico eroe completo che si estrania dalla societa
+
 ### storia
 
 vitangelo moscarda si vede allo specchio e per la prima volta la sua moglie gli fa notare tutti i suoi difetti sia fisici che caratteristici. quando l'amica gli spara, la gente pensa che lui e un adultero. invece lei non vuole accettare la verita che lei gli rivela. lui si ritira in un manicomio, e rinuncia alla sua vita.
+
+#### T10
+
+nome e solo epigrafe funeraria
+
+vitangelo moscarda va oltre mattia pascal perche rinuncia ad una identita
 
 # teatro
 
@@ -140,19 +148,52 @@ pirandello apparentemente prende questi grandi schemi di problema economico e ad
 
 grottesco e nel teatro cio che l'umorismo e nelle novelle
 
+consequenzialita logica - processo naturalistico
+
+## cosi e se vi pare
+
+relativita della conoscenza - tutti vogliono sapere la verita irraggiungibile
+
+'io sono colei che mi si chiede'
+
 ## giuoco delle parti
 
-leone gala, separato dalla moglie, e indifferente del suo rapporto con l'amante. offesa, moglie fa fare il duello all'ex marito. lui si rifiuta, provocando indignazione.
+leone gala, separato dalla moglie, e indifferente del suo rapporto con l'amante. offesa, moglie fa fare il duello all'ex marito. accetta a parole. lui si rifiuta, provocando indignazione.
+
+leone gala dice che ha capito il gioco, ma non ha raggiunto il distacco totale. ha emozioni di vendetta; silia oppressa da societa e marito e vuole ucciderlo.
+
+silia in sofferenza perche viene sempre guardata e oggettificata - quasi un accenno di femminismo
 
 ### T11
 
 ## sei personaggi in cerca di autore
 
+* critica a attori che non sono in grado di prendere la vita di un'altra persona
+
+* critica a drammone borghese che non riesce a finirlo perche e ripugnante
+
 ### T12
 
 ## enrico IV
 
-### T
+uomo impazzito per una caduta da cavallo si crede enrico IV. rinsanito, continua a far finta di credersi enrico. gli amici vogliono fargli vivere uno shock
+
+### T 13
+
+uccide belcredi perche non ce la fa a uscire completamente dai desideri borghesi di gelosia e onore
+
+# ultimo teatro - i giganti della montagna
+
+solo alla fine della vita cambia la sua opinione
+
+problema: rapporto col potere - deve adattare il suo teatro al regime fascista
+
+## trama
+
+
+
+
+
 
 
 

@@ -144,5 +144,41 @@ Utilizza ruffini per trovare fattori del denominatore e separa cosi il problema:
 		\frac{A}{fattore_{1}}+\frac{Bx +C}{fattore_{2}}
 \end{gather*}
 dove fattore 2 sta alla 2da potenza
+\section{Integrali Definiti}
+il problema delle aree e quello di determinare l'area sotto una curva delimitata. per risolverlo posso dividere l'intervallo $x$ in tanti $dx$ e fare una somma infinita:
+\begin{gather*}
+		\int_a^b f(x)dx
+\end{gather*}
+\subsection{teorema di torricelli-barrow}
+data una integrale definita in questo modo:
+\begin{gather*}
+		F(x)=\int_a^x f(t)dt
+\end{gather*}
+allora la sua derivata e:
+\begin{gather*}
+		F'(x)=f(x)
+\end{gather*}
+vediamo:
+\begin{gather*}
+		F(a)=0+c\\
+		F(b)=\int_a^b f(x)dx +c\\
+		\int_a^b f(x)dx=F(b)-F(a)
+\end{gather*}
+Esempio:
+\begin{gather*}
+		\int_4^9 (3\sqrt{x}+2x)dx=\left[2x^{\frac{3}{2}}\right]_4^9\\
+		F(b)-F(a)
+\end{gather*}
+
+\section{valore medio del grafico}
+
+l'area sotto al grafico tra $a$ e $b$, anche per una curva, sara uguale all'area di un rettangolo con base $ab$, e altezza che arriva in un qualche punto della curva tra $a$ e $b$
+
+\subsection{area tra due curve}
+
+\begin{gather*}
+A=\int_a^b f(x)dx - \int_a^b g(x)dx = \int_a^b \left[ f(x) - g(x)\right]dx
+\end{gather*}
+
 
 \end{document}
