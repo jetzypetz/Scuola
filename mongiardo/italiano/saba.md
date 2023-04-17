@@ -8,10 +8,60 @@ scappa a parigi per leggi razziste, poi ritorna per essere nascosto a casa di il
 
 studia psicoanalisi con allievo di freud
 
-## come scrive?
+esce da scuola - autodidatta
 
-### T9 amai
+# come scrive?
+
+## T9 amai
 
 non troviamo originalita nella sua letteratura. livello medio, semplice di comprensione. riutilizza materiale trito: scrivo semplice e difficile. attinge a tradizione; ma ama andare in fondo dove si trova verita
 
 vita inizia sofferta, ma si aspetta futuri migliori
+
+# canzoniere
+
+in tre parti
+
+# temi
+
+## piu autobiografici
+
+### Trieste - amore dell'ambiente florido, 'brulicante di vita'. e trova sempre qualche spazietto per ritirarsi in solitudine con i suoi dolori
+
+#### T3 Trieste
+
+### Donna - la moglie (maggior parte), la figlia, l'amante; considerata sostituto di figura materna che gli e sempre venuta a mancare
+
+#### T1 a mia moglie
+
+ogni strofa la paragona ad un animale - anti tradizione italiana che eleva sempre donne ad essere angelicate
+
+trasuda amore
+
+pollastra - nell'andare ha il lento tuo passo di regina - cammini in modo regale; voce quando si lamenta della giornata come chiocciare di galline
+
+gravida giovenca ancora non troppo appensantita - festosa, quando lei e triste, lui e spinto a farle un regalo a portarla a festosita
+
+cagna - affetto rispetto, talmente innamorata che diventa feroce a chi minaccia padrone
+
+coniglia paurosa - si rannicchia nella cuccia finche il padrone viene a portare cibo, e non puo mai fargli del male perche coniglia e troppo dolce
+
+rondine - tu a differenza non riparti, e rimani qua. collegamento a farinata degli uberti
+
+formica - previdente, raccoglie di estate per l'inverno 
+
+### Infanzia - tutto un ciclo di poesie dedicate al dramma della separazione
+
+## generale
+
+### Dolore degli uomini - questione ebraica. denuncia delle persecuzioni
+
+#### T2 la capra
+
+trova consonanza a suo dolere nel dolore di una capra legata nella pioggia
+
+dolore e' eterno - belato uguale
+
+viso semita - vede nella capra dolore di tutti gli ebrei
+
+dal particolare al generale (tutti soffrono) al particolare (ebrei)

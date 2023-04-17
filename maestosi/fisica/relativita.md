@@ -51,3 +51,9 @@ diventa
 p = \gamma mv
 
 piu si avvicina alla velocita della luce, piu cresce la quantita di moto per una velocita.
+
+# energia relativistica
+
+E_0 = mc^2 energia di massa (energia che ha tutta la materia, sprigionata in reazioni nucleari
+
+E = \gamma mc^2 energia totale
