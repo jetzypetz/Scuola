@@ -115,7 +115,7 @@ prima provo a trasformare il numeratore per diventare la derivata del denominato
 \end{gather*}
 Quindi posso usare la prima regola di integrazione (funzione composta):
 \begin{gather*}
-		\int \frac{3(x+\frac{1}{3}}{x^2-4x+9}dx=\frac{3}{2}\int \frac{2(x+\frac{1}{3})}{x^2-4x+9}dx\\
+		\int \frac{3(x+\frac{1}{3})}{x^2-4x+9}dx=\frac{3}{2}\int \frac{2(x+\frac{1}{3})}{x^2-4x+9}dx\\
 		=\frac{3}{2} \int \frac{2x+\frac{2}{3}-4+4}{x^2-4x+9}dx=\frac{3}{2}\left[ \int \frac{2x-4}{x^2-4x+9}dx+ \int \frac{\frac{14}{3}}{x^2-4x+9}dx\right]\\
 		=\frac{3}{2}\left[ \ln (x^2-4+9)+\frac{14}{3}\int \frac{1}{x^2-4x+9}dx\right]
 \end{gather*}
@@ -174,11 +174,20 @@ Esempio:
 
 l'area sotto al grafico tra $a$ e $b$, anche per una curva, sara uguale all'area di un rettangolo con base $ab$, e altezza che arriva in un qualche punto della curva tra $a$ e $b$
 
-\subsection{area tra due curve}
+\section{area tra due curve}
 
 \begin{gather*}
 A=\int_a^b f(x)dx - \int_a^b g(x)dx = \int_a^b \left[ f(x) - g(x)\right]dx
 \end{gather*}
 
+per trovare l'area tra varie curve, si segue la linea di contorno della forma, aggiungendo o sottraendo le integrali definite in base a se la linea segue verso destra o verso sinistra
+
+\section{solidi di rotazione}
+
+ruotando una curva attorno all'asse x, si crea una forma tridimenzionale, la cui area si calcola considerando non piu piccoli rettangoli, ma circonferenze con raggio $f(x)$, e quindi area  $\pi f(x)^2 dx$. l'integrale  $A = \pi \int [f(x)]^2 dx$ trova l'area completa del solido.
+
+l'area della sfera si trova con il solido di rotazione di  $y=\sqrt{r^2-x^2}$ 
+
+attorno alla y: vai a rivedere. $A =2 \pi \int [x f(x)] dx$
 
 \end{document}

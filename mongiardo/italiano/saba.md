@@ -30,6 +30,10 @@ in tre parti
 
 #### T3 Trieste
 
+trieste e come un ragazzo scontroso ma in fondo gentile,che vorrebbe regalare un fiore. dolce e burbera (con amore e gelosia, come cagna) contraddizione
+
+in questa citta riconosce casa. da cantuccio della sua erta deserta, si vede la spiaggia popolata, e le strade vuote.
+
 ### Donna - la moglie (maggior parte), la figlia, l'amante; considerata sostituto di figura materna che gli e sempre venuta a mancare
 
 #### T1 a mia moglie
