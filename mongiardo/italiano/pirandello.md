@@ -6,6 +6,8 @@ note concettuali e tematiche sono sempre le stesse attraverso tutte le opere
 
 Particolarmente nella vita delle persone. Unicamente bloccato dalla societa, che impone regole sul come agire. Non siamo liberi di cambiare liberamente per le convenzioni sociali che noi dobbiamo recitare come pupazzi secondo il contesto sociale; abbiamo diverse parti da recitare (e un anarchico perche vuole che non ci siano freni all'atteggiamento delle persone). Quindi no esiste un Eugenio Animali, ma diversi in funzione di chi lo pensa.
 
+societa moderna distrugge l'io anche per la cultura di massa: metropoli, capitale monopolistico... spersonalizzante
+
 La famiglia e una grande trappola per il vitalismo - vivendo in una famiglia infelice ha esperienza diretta sa che influenza puo avere sul comportamento
 
 Il lavoro e l'altra trappola
