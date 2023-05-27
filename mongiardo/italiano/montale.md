@@ -158,6 +158,31 @@ golfo - parte interna del teatro sotto al palco scenico per l'orchestra. Perche 
 
 hitler entra nella fossa del teatro (l'ha preso e inghiottito) pieno di swastiche illuminate.
 
-montale critica consenso popolare: chiudono vetrine per festa, povere per sanzioni economiche per guerra in libia, che vendono giocattoli allineati con la propaganda
+montale critica consenso popolare (conniventi): chiudono vetrine per festa, povere per sanzioni economiche per guerra in libia, che vendono giocattoli allineati con la propaganda
 
 il beccaio (macellaio) ha chiuso anche lui, che ornava le vetrine con le bacche
+
+
+mite carnefice - ossimoro che esprime connivenza dei fiorentini che diventano complici anche se miti
+
+sozzo trescone - un ballo immondo - festa anticipa cio che succedera alle falene (gli uccisi)
+
+assenzo = colpevole
+
+
+tutto per nulla? - millenni di cultura andranno buttati ora
+
+polline - farina di farfalla
+
+stride - rumore come zucchero di prima
+
+sinibbio - vento freddo
+
+nell'inciso - le feste, e i regali, e gli addii (forte come un battesimo - si avvicina alla religione, che vuole salvaguardare in questo momento) in mezzo all'orda fascista
+
+nella parentesi - ma -> avversativo al pessimismo, speranza - stella cometa che attraversa il cielo, portando tre riferimenti biblici - una promessa di salvezza dopo questo presente
+
+eliotropi - girasoli
+
+
+irma brandeis - clizia prima volta che appare la sdonna salvifica -> ha funzione di tramite tra uomini e dio. deve portare la salvezzagli uomini a alzando gli occhi al cielo. poesia chiude su nota positiva. pero dice tutti questi secoli di uomini che provano a salvarsi non serve a niente, serve comunque la salvezza divina, come per agostino, o apuleio. questa strofa anticipata da stella cadente della strofa precedente
