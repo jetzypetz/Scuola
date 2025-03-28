@@ -2,7 +2,7 @@
 
 ## I got obsessed with writing my High School notes in $\LaTeX$
 
-I somehow stumbled on [this](https://castel.dev/) fantastic resource for optimising writing maths notes in $\LaTeX$ using vim with some powerful keybindings and spent the summer of 2021 using a ubuntu terminal emulator on a cheap samsung tablet with a bluetooth keyboard learning to write notes in this uselessly sophisticated manner. I then used this to write notes for all my classes in my last years of High School.
+I somehow stumbled on [this](https://castel.dev/) fantastic resource for optimising writing maths notes in $\LaTeX$ using vim with some powerful keybindings and spent the summer of 2021 using an ubuntu terminal emulator on a samsung tablet with a bluetooth keyboard learning to write notes in this uselessly sophisticated manner. I then used this to write notes for all my classes in my last years of High School.
 
 ## Check out some of my notes
 
