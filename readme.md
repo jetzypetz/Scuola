@@ -10,6 +10,6 @@ I somehow stumbled on [this](https://castel.dev/) fantastic resource for optimis
 - [Matrices](maestosi/matematica/matrici/matrici.pdf)
 - [Magnetism](maestosi/fisica/magnetismo.pdf)
 - [Geneology of first Roman Emperor (Giulio-Claudia Dynasty)](mongiardo/latino/giulio-claudia.pdf)
-- [Dante's Divine Comedy First Canto](mongiardo/italiano/dante/primo canto.pdf)
+- [Dante's Divine Comedy First Canto](mongiardo/italiano/dante/primo%20canto.pdf)
 - [Romanticism in Italian Art](scotto/romanticismo.pdf)
 - [Kant's Philosophy](gavini/filosofia/kant.pdf)
