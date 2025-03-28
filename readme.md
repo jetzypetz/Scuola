@@ -6,7 +6,7 @@ I somehow stumbled on [this](https://castel.dev/) fantastic resource for optimis
 
 ## Check out some of my notes
 
-- [Notes on Integrals](maestosi/matematica/integrali/integrali.pdf)
+- [Integrals](maestosi/matematica/integrali/integrali.pdf)
 - [Matrices](maestosi/matematica/matrici/matrici.pdf)
 - [Magnetism](maestosi/fisica/magnetismo.pdf)
 - [Geneology of first Roman Emperor (Giulio-Claudia Dynasty)](mongiardo/latino/giulio-claudia.pdf)
